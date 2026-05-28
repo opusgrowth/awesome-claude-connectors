@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 414 verified MCP integrations, organized by category with descriptions and use cases.
+> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 418 verified MCP integrations, organized by category with descriptions and use cases.
 
-**Last updated:** May 22, 2026 | **Total connectors:** 414 | **Categories:** 30
+**Last updated:** May 28, 2026 | **Total connectors:** 418 | **Categories:** 30
 
 Claude connectors are verified MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, and Claude Code. Every connector in the official directory is vetted by Anthropic for security, reliability, and compatibility.
 
@@ -19,11 +19,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector of the Week — May 22, 2026
+> ### Connector of the Week — May 28, 2026
 >
-> **[Sourcegraph](https://sourcegraph.com/enterprise)** · *Development Tools*
+> **[Interactive Brokers (IBKR)](https://www.interactivebrokers.com/en/trading/products.php)** · *Finance and Trading*
 >
-> This week's wave brings sixteen new connectors across twelve categories, and Sourcegraph is the load-bearing arrival. The constraint that has defined Claude-assisted coding from day one is the context window: Claude can read what fits, but enterprise codebases don't fit — not the 10M-LOC monorepo, not the 400-repo polyrepo, not the production service graph with hundreds of microservices and a decade of Git history. Sourcegraph dissolves that constraint. Its code intelligence indexes every symbol, every reference, every commit across an entire engineering organization, and the connector lets Claude query that index live. For senior engineers debugging incidents, that means tracing a stack trace across services Claude has never seen. For platform teams, refactoring patterns can be applied surgically across hundreds of consumers without paging through each one by hand. For new hires, the onboarding bottleneck — "where does X happen and who owns it" — becomes a single conversation. Pairs naturally with Atlassian Rovo for Jira and Confluence context, Linear for issue tracking, Context7 for library docs, GraphOS for federated schemas, and Sentry for runtime errors — together they turn Claude into a code intelligence layer over the engineering org, not a stateless pair-programmer working from whatever happened to fit in 200k tokens. If you write code inside a real codebase — bigger than one repo, older than one quarter — this is the connector that changes what's actually possible.
+> Interactive Brokers is the load-bearing arrival in a deliberately small, finance-led week — roughly four genuinely new connectors rather than the usual broad wave, plus a couple of renames and a community Metabase MCP. IBKR matters because it is the first true full-service global brokerage to land on the list, and it drops squarely into Finance and Trading, already the directory's largest category at 54 connectors. The connector lets you trade, invest, analyze, and manage positions across global multi-asset markets — stocks, options, futures, and forex — from inside Claude, which collapses the gap between asking a question about an instrument and acting on the answer in the same surface. That power is exactly why it warrants a human in the loop: live brokerage access touching real capital is not a place for unattended automation, and the sensible posture is to let Claude do the research, framing, and pre-trade reasoning while you keep your hand on the final decision. Where it earns its keep is at the end of a research chain — pair it with FMP, Morningstar, Fiscal.ai, Quartr, or S&P Global to pull fundamentals, filings, earnings-call context, and ratings, or with CoinDesk and Crypto.com for the digital-asset side, then bring the thesis back to IBKR for portfolio review and execution under your own oversight. For anyone who has been running markets research in Claude and then switching windows to act on it, this is the connector that finally closes the loop.
 
 ---
 
@@ -77,7 +77,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Automation and Integration
 
 - [CData Connect AI](https://www.cdata.com) - Managed MCP for 350+ data sources. *Use case: Universal data connector, querying databases and SaaS APIs through a single interface.*
-- [Composio](https://composio.dev) - Build AI workflows across 1000+ apps. *Use case: Multi-tool agent orchestration, OAuth handling, and pre-built integrations across CRM, productivity, and developer tools through a single connector.*
 - [IFTTT](https://ifttt.com) - Automate 1000+ apps. *Use case: Cross-app automation, trigger-based workflows connecting disparate services.*
 - [Jentic](https://jentic.com) - Universal tool access. *Use case: Connecting to APIs without writing integration code.*
 - [Make](https://www.make.com) - Run automation scenarios. *Use case: Visual workflow automation, connecting apps without code.*
@@ -144,6 +143,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Read AI](https://www.read.ai) - Bring meeting transcripts and summaries into Claude. *Use case: Meeting recording across Zoom/Meet/Teams, AI-generated summaries, sentiment and engagement analytics, action-item extraction.*
 - [Slack](https://slack.com) - Send messages, create canvases, and fetch data from Slack. *Use case: Team communication, searching channel history, posting updates, creating collaborative documents.*
 - [Superhuman Mail](https://superhuman.com) - Drive your email and calendar from Claude. *Use case: Inbox triage at speed, AI-drafted replies in personal voice, calendar coordination, follow-up automation.*
+- [tldv](https://tldv.io) - AI meeting notetaker for Zoom, Google Meet, and Teams. *Use case: Pulling call transcripts and AI summaries, extracting action items, searching past meeting insights, syncing notes to CRM.*
 - [Twilio](https://www.twilio.com) - Programmable messaging, voice, and customer engagement APIs. *Use case: SMS/MMS/RCS/WhatsApp messaging, phone-number provisioning, verification flows for production apps.*
 - [Zoom for Claude](https://zoom.us) - Search, recap, and act on Zoom meetings. *Use case: Meeting recaps, finding key moments in recordings, extracting action items from Zoom calls.*
 
@@ -172,6 +172,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Google Cloud BigQuery](https://cloud.google.com/bigquery) - Analytical insights from Google BigQuery. *Use case: Large-scale data analysis, SQL queries against data warehouses, business intelligence.*
 - [Hex](https://hex.tech) - Answer questions with Hex notebooks. *Use case: Data science workflows, querying databases via notebooks, sharing analytical results.*
 - [Metabase](https://www.metabase.com) - Analytics and dashboards. *Use case: Business intelligence, SQL-free data exploration, embedded analytics.*
+- [Metabase (Unofficial — Community)](https://github.com/jerichosequitin/metabase-mcp) - Community MCP server for Metabase BI data access. *Use case: Run SQL queries, execute saved cards, browse dashboards and databases, optimize token usage with caching.*
 - [Microsoft Clarity](https://clarity.microsoft.com) - Session replays and heatmaps. *Use case: Understanding how users interact with your website, identifying UX friction points.*
 - [Mixpanel](https://mixpanel.com) - Analyze and query product data. *Use case: Event-based analytics, cohort analysis, engagement tracking.*
 - [Monte Carlo](https://www.montecarlodata.com) - Data and AI observability. *Use case: Detecting data freshness, schema, volume, and quality incidents across warehouses, lakes, and ML pipelines.*
@@ -280,7 +281,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Nutrient DWS](https://www.nutrient.io/api/processor-api/) - Hosted document processing — generation, conversion, OCR, redaction, signatures. *Use case: HTML/Office-to-PDF conversion, AI redaction at scale, PDF form filling, watermarking, archive-grade PDF/A workflows.*
 - [Nutrient PDF Editor](https://www.nutrient.io/products/pdf-editor) - View, annotate, fill forms, and redact PDFs directly from Claude. *Use case: Interactive PDF editing, form completion, redaction, and annotation without leaving the conversation.*
 - [PandaDoc](https://www.pandadoc.com) - Create, send, sign, and track documents. *Use case: Proposal and quote generation, e-signature workflows, document analytics across the sales lifecycle.*
-- [PDF Tools - View, Fill, Merge, Split, Manage Pages, Extract](https://github.com/anthropics/anthropic-quickstarts#pdf-tools) **`A`** - Fill, analyze, and extract from local PDFs. *Use case: PDF form filling, data extraction, local PDF processing without uploading.*
+- [PDF Tools - Fill, Sign, Merge, Split, Extract](https://github.com/Open-Document-Alliance/PDF-Tools) - Local PDF workflow extension for Claude Desktop. *Use case: Fill and sign PDF forms, merge and split files, fetch PDFs from URLs, extract structured data locally without uploading.*
 - [pdf-viewer](https://github.com/anthropics/anthropic-quickstarts) **`A`** - Read and interact with PDFs. *Use case: Extracting text from PDFs, answering questions about PDF content.*
 - [PDF Viewer](https://github.com/anthropics/anthropic-quickstarts#pdf-viewer) **`A`** - Render PDFs from URLs. *Use case: Quick preview of PDFs from arxiv.org and other URL-based sources.*
 - [PowerPoint (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts#powerpoint) **`A`** - Control PowerPoint with AppleScript. *Use case: Creating and modifying presentations programmatically on macOS.*
@@ -315,7 +316,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Brex](https://www.brex.com) - Corporate card management and spend automation. *Use case: Expense tracking, corporate card controls, receipt management, budget monitoring.*
 - [Campfire](https://campfire.ai) - AI-native ERP and accounting platform. *Use case: General ledger automation, revenue recognition, close management for high-growth finance teams.*
 - [Carta](https://carta.com) - Connected ERP for private capital. *Use case: Cap-table management, 409A valuations, fund administration, and LP reporting for private companies and funds.*
-- [Cash App](https://cash.app) - Personal finance, payments, and merchant discovery. *Use case: Send and receive money, discover local merchants and food spots, track spending.*
 - [Chronograph](https://www.chronograph.pe) - Private market data. *Use case: Private equity analytics, fund performance tracking.*
 - [Clarity AI](https://clarity.ai) - Sustainability data and SFDR fund classification. *Use case: ESG reporting, SFDR 2.0 fund categorization, sustainable investment disclosures.*
 - [CoinDesk](https://data.coindesk.com) - Institutional-grade crypto market and on-chain data. *Use case: Real-time and historical prices across 300+ exchanges, derivatives data, on-chain metrics for Bitcoin/Ethereum, indices and reference data.*
@@ -331,6 +331,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Gusto](https://gusto.com) - Payroll, benefits, and HR for small businesses. *Use case: Running payroll, managing benefits, onboarding employees, tax filing automation.*
 - [IBISWorld](https://www.ibisworld.com) - Industry intelligence and structured market data on 50,000+ industries. *Use case: Industry benchmarking, market sizing, five-year forecasts, competitive landscape research grounded in human-verified data.*
 - [ICE Data Services](https://www.ice.com/fixed-income-data-services) - U.S. fixed income trade and reference data. *Use case: Bond pricing, fixed income trade analysis, reference data for institutional fixed income desks.*
+- [Interactive Brokers (IBKR)](https://www.interactivebrokers.com) - Global multi-asset brokerage for stocks, options, futures, and forex. *Use case: Place and manage trades across 170+ markets, monitor portfolio and P&L, analyze positions and market data, check account balances.*
 - [Intuit Credit Karma](https://www.creditkarma.com) - Credit score insights. *Use case: Personal credit monitoring, financial health assessment.*
 - [Intuit QuickBooks](https://quickbooks.intuit.com) - Small business accounting, invoicing, and financial reporting. *Use case: Bookkeeping, expense categorization, invoice management, tax preparation.*
 - [Intuit TurboTax](https://turbotax.intuit.com) - Consumer tax preparation and refund estimation. *Use case: Tax filing assistance, deduction identification, refund estimation.*
@@ -379,6 +380,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [10x Genomics Cloud](https://www.10xgenomics.com) - Access the 10x Genomics platform. *Use case: Single-cell genomics, spatial transcriptomics, chromatin accessibility analysis.*
 - [AdisInsight](https://adisinsight.springer.com) - Drug, clinical trial, and pharma pipeline intelligence. *Use case: Drug development tracking, competitive pipeline analysis, licensing opportunity identification.*
+- [Alma](https://alma.food) - AI nutrition coach that tracks meals and micronutrients. *Use case: Reviewing logged meals and macros, identifying micronutrient gaps, tracking diet-quality score trends, GLP-1 and athlete nutrition coaching.*
 - [Benchling](https://www.benchling.com) - R&D data and notebooks. *Use case: Lab notebook management, experiment tracking, biological sequence design.*
 - [BioRender](https://www.biorender.com) - Scientific templates and icons. *Use case: Creating publication-quality scientific figures, graphical abstracts, pathway diagrams.*
 - [bioRxiv](https://www.biorxiv.org) - Access bioRxiv and medRxiv preprint data. *Use case: Preprint search for biology and medicine, catching research 6-12 months before peer review.*
@@ -438,6 +440,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Glovo](https://glovoapp.com) - Anything delivered in minutes. *Use case: Food delivery, grocery shopping, courier services across 1500+ cities in Europe, LATAM, and Africa.*
 - [Instacart](https://www.instacart.com) - Grocery and household delivery as fast as 30 minutes. *Use case: Grocery shopping automation, recipe-to-cart workflows, household supply restocking.*
+- [Order by Cash App](https://cash.app) - Discover local food spots and order with a conversation. *Use case: Finding nearby restaurants, placing food orders, paying through Cash App, tracking local merchant deals.*
 - [Resy](https://resy.com) - Restaurant discovery and reservation booking. *Use case: Finding restaurants, booking tables, managing dining plans.*
 - [Taskrabbit Booking Assistance](https://www.taskrabbit.com) - Find and book local Tasker services. *Use case: Furniture assembly, moving help, handyman services, errands, local task booking.*
 - [Thumbtack](https://www.thumbtack.com) - Find and hire local pros. *Use case: Home services, contractors, event vendors, professional services discovery and booking.*
@@ -461,6 +464,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Crossbeam](https://www.crossbeam.com) - Partner data and ecosystem intelligence. *Use case: Partner overlap analysis, co-selling opportunities, ecosystem mapping.*
 - [Customer.io](https://customer.io) - Explore customer data. *Use case: Behavioral messaging, customer segmentation, lifecycle email campaigns.*
 - [Day AI](https://www.day.ai) - AI-powered CRM with automatic relationship tracking. *Use case: Prospect research, contact enrichment, pipeline management, meeting prep.*
+- [Euler](https://eulerapp.com) - Partner relationship management platform for partner and affiliate programs. *Use case: Onboard and manage channel partners, track partner-sourced deals and revenue, manage affiliate and reseller programs, query partner program data conversationally.*
 - [G2](https://www.g2.com) - B2B software buyer intent and review data. *Use case: Identifying accounts researching your category, competitive analysis, leveraging review insights for sales.*
 - [Gainsight (Staircase AI)](https://www.gainsight.com) - Customer success management and health scoring. *Use case: Renewal forecasting, churn prevention, customer health monitoring, expansion tracking.*
 - [Harmonic](https://www.harmonic.ai) - Discover companies and people. *Use case: Company discovery, people search, market mapping for sales and recruiting.*
