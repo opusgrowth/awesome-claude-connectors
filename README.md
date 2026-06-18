@@ -21,7 +21,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > [!TIP]
 > ### Connector of the Week — June 18, 2026
 >
-> **[dbt](https://www.getdbt.com)** · *Data and Analytics*
+> **[dbt](https://docs.getdbt.com)** · *Data and Analytics*
 >
 > dbt is the load-bearing arrival of this reconcile: the directory has long carried the warehouses (Snowflake, BigQuery, Databricks) and the BI layer on top (Metabase, Hex, Sigma, Omni, ThoughtSpot), but never the transformation layer that turns raw tables into trusted models. dbt is that missing middle - the analytics-engineering standard for building, testing, and documenting data pipelines - and its arrival makes the Data and Analytics section a complete modern data stack for the first time. It mirrors the GitLab and IBKR logic of recent weeks: a first-of-its-kind platform that fills an obvious category gap rather than duplicating an existing tool. Pair it with Snowflake or BigQuery upstream and Hex, Sigma, or Metabase downstream to go from raw data to a tested, documented metric without leaving Claude. (Runners-up this week: Replit and Lovable, the first full app-builder platforms to land.)
 
@@ -516,7 +516,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Day AI](https://www.day.ai) - AI-powered CRM with automatic relationship tracking. *Use case: Prospect research, contact enrichment, pipeline management, meeting prep.*
 - [Euler](https://eulerapp.com) - Partner relationship management platform for partner and affiliate programs. *Use case: Onboard and manage channel partners, track partner-sourced deals and revenue, manage affiliate and reseller programs, query partner program data conversationally.*
 - [G2](https://www.g2.com) - B2B software buyer intent and review data. *Use case: Identifying accounts researching your category, competitive analysis, leveraging review insights for sales.*
-- [Gainsight (CS)](https://www.gainsight.com) - Customer success data and automation. *Use case: Customer health scoring, renewal and churn workflows, querying and writing back CS data.*
+- [Gainsight (CS)](https://www.gainsight.com/customer-success/) - Customer success data and automation. *Use case: Customer health scoring, renewal and churn workflows, querying and writing back CS data.*
 - [Gainsight (Staircase AI)](https://www.gainsight.com) - Customer success management and health scoring. *Use case: Renewal forecasting, churn prevention, customer health monitoring, expansion tracking.*
 - [Harmonic](https://www.harmonic.ai) - Discover companies and people. *Use case: Company discovery, people search, market mapping for sales and recruiting.*
 - [Highspot](https://highspot.com) - Sales enablement and content. *Use case: Surfacing and sharing sales content, deal actions, buyer engagement to win deals.*
