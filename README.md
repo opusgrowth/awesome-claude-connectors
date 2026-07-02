@@ -18,10 +18,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
-> [!NOTE]
-> ### Two directory surfaces — resolved July 2, 2026
->
-> Anthropic's connector catalog now lives on **two surfaces that don't fully overlap**. The public web directory at claude.com/connectors lists **401** connectors (verified July 2: CMS pagination and sitemap agree exactly) — a curated subset. The **in-app catalog** (claude.ai → Settings → Connectors) carries the full set, including **Community** connectors and the local **desktop-extension** entries (Filesystem, AppleScript automations, and similar) that never appear on the web listing. A July 2 manual export of the in-app catalog confirmed that entries missing from the web directory — including a prior Connector of the Week, GoPlus AgentGuard — remain live in-app. **This list tracks the union of both surfaces.** One quirk to know: the two surfaces disagree on some display names (the web directory says PitchBook, Oracle NetSuite, Monday; the in-app catalog still shows PitchBook Premium, NetSuite, monday.com) — this list follows the web directory's names where they differ.
 
 > [!TIP]
 > ### Connector of the Week — July 2, 2026
