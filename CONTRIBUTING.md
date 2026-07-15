@@ -34,3 +34,22 @@ Tested a connector and have real-world notes? Add a brief field report below the
 ## Weekly Updates
 
 This list is updated weekly to stay in sync with the official directory. If you notice the directory has added connectors that aren't listed here, please open an issue or PR.
+
+### The two surfaces
+
+Anthropic's catalog lives on two surfaces that don't fully overlap, and this list tracks the **union** of both:
+
+- **Web directory** (claude.com/connectors) -- a curated subset, enumerable from `claude.com/sitemap.xml`. Exclude locale-prefixed duplicates when counting.
+- **In-app catalog** (claude.ai -> Settings -> Connectors) -- the full set, including Community connectors and local desktop extensions that never appear on the web listing. Not scrapeable; requires a manual export.
+
+**Removal rule: only remove an entry when it is absent from _both_ surfaces.** Absence from one surface alone is expected and is not evidence of delisting. A removal batch was cancelled in July 2026 for exactly this reason, and three entries were removed in July 2026 only after failing the two-surface test.
+
+Before removing, confirm the slug rather than trusting a 404 -- a wrong slug guess looks identical to a delisting. GitHub MCP (`/connectors/github`), Cortellis (`/connectors/cortellis-regulatory`), and Computer by DevRev (`/connectors/devrev`) have each been mistaken for removals this way.
+
+### Naming
+
+The two surfaces disagree on some display names (web directory: PitchBook, Oracle NetSuite, Monday; in-app: PitchBook Premium, NetSuite, monday.com). **This list follows the web directory's name where they differ.** Those are naming drift, not renames -- don't "fix" them, and don't add the in-app variant as a separate entry.
+
+### Verification
+
+Every entry needs a working vendor URL. A domain returning 200 is not proof of identity -- confirm the page content matches the connector before listing it. If a vendor can't be confirmed, hold the entry rather than shipping a guessed link.
