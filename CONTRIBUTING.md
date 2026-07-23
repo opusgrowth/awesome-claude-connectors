@@ -53,3 +53,9 @@ The two surfaces disagree on some display names (web directory: PitchBook, Oracl
 ### Verification
 
 Every entry needs a working vendor URL. A domain returning 200 is not proof of identity -- confirm the page content matches the connector before listing it. If a vendor can't be confirmed, hold the entry rather than shipping a guessed link.
+
+### Held entries
+
+Catalog entries whose vendor URL cannot be confirmed are published in the README's **Held for Verification** section -- name, catalog description, and the reason held, with no link -- rather than being listed with a guessed or generic link, and rather than being silently omitted. Presence in at least one catalog surface is still required.
+
+If you are the vendor of a held entry, or you know its canonical product page, open an issue or PR with the URL. The entry graduates to its category section once the page content confirms the product. Never point a held entry at a generic directory page as a placeholder -- shared placeholder links fail lint (`double-link`) and tell the reader nothing.

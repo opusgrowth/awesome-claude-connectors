@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 841 tracked MCP integrations across both directory surfaces, organized by category with descriptions and use cases.
+> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 841 verified MCP integrations across both directory surfaces, plus 18 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** July 23, 2026 | **Connectors tracked:** 841 | **Categories:** 30
+**Last updated:** July 23, 2026 | **Connectors tracked:** 841 listed + 18 held | **Categories:** 30
 
 Claude connectors are verified MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, and Claude Code. Every connector in the official directory is vetted by Anthropic for security, reliability, and compatibility.
 
@@ -23,7 +23,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 >
 > **Anthropic Economic Index** · *Data and Analytics*
 >
-> Claude, connected to the data about Claude. The Economic Index connector — one of the very few **`A`**-marked first-party connectors that isn't a desktop extension — exposes Anthropic's public dataset on how Claude is actually used across occupations and task types, so the usage economy of the assistant becomes something you can interrogate from inside the assistant. It headlines a week where the official tier finally moved in volume: ElevenLabs (voice agents), Vercel's v0, Railway, and AngelList all landed as official connectors alongside roughly a hundred Community additions (**+106 total, 735 → 841**). Also this week: BlueConic returns — removed July 15 after failing the two-surface test, it is back in the in-app catalog and re-listed, proof the removal rule cuts both ways; seven in-app-only entries follow their catalog renames (Mozilla MDN → MDN, CData → CData Connect AI, Tableau MCP Server → Tableau, among others); and the held-for-verification list grows to eighteen — each an entry whose vendor URL could not be confirmed, held rather than shipped with a guessed link.
+> Claude, connected to the data about Claude. The Economic Index connector — one of the very few **`A`**-marked first-party connectors that isn't a desktop extension — exposes Anthropic's public dataset on how Claude is actually used across occupations and task types, so the usage economy of the assistant becomes something you can interrogate from inside the assistant. It headlines a week where the official tier finally moved in volume: ElevenLabs (voice agents), Vercel's v0, Railway, and AngelList all landed as official connectors alongside roughly a hundred Community additions (**+106 total, 735 → 841**). Also this week: BlueConic returns — removed July 15 after failing the two-surface test, it is back in the in-app catalog and re-listed, proof the removal rule cuts both ways; seven in-app-only entries follow their catalog renames (Mozilla MDN → MDN, CData → CData Connect AI, Tableau MCP Server → Tableau, among others); and the held-for-verification list grows to eighteen — each an entry whose vendor URL could not be confirmed, now published transparently in a Held for Verification section rather than shipped with guessed links.
 
 ---
 
@@ -59,6 +59,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [SEO and Web](#seo-and-web)
 - [Ticketing and Events](#ticketing-and-events)
 - [Travel](#travel)
+- [Held for Verification](#held-for-verification)
 - [Related](#related)
 
 ---
@@ -993,6 +994,31 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Veltra Activities](https://www.veltra.com) - Book tours, activities, and things to do worldwide. *Use case: Finding local experiences at a destination, comparing tour options, booking activities.*
 - [Viator](https://www.viator.com) - Tours, activities, and travel experiences worldwide. *Use case: Booking travel experiences, day tours, multi-day itineraries, attraction tickets.*
 - [Wyndham Hotels and Resorts](https://www.wyndhamhotels.com) - Discover Wyndham hotels. *Use case: Wyndham property search, loyalty program management, hotel booking.*
+
+## Held for Verification
+
+Every link above has been checked against the live page — a URL ships only when the page content confirms the product. These catalog entries are real (each appears in the in-app connectors catalog) but no vendor URL could be confirmed for them yet, so they are listed here without a link rather than with a guessed or generic one. If you are the vendor, or know the canonical product page, open an issue or PR with the URL — the entry graduates to its category once the page confirms the product.
+
+| Connector        | Catalog description                                                                                                | Why held                                                                                |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| AI TeamsMaestro  | Search meetings and AI notes.                                                                                      | No verifiable vendor site found; probed domains are parked or unrelated.                |
+| Allowance        | Scoped virtual cards and approval flows for agent purchases, with receipts and audit trails.                       | No verifiable vendor site found.                                                        |
+| Aster Share      | Create in Claude, publish with Aster.                                                                              | Several unrelated "Aster" products; no confirmed match.                                 |
+| august           | Understand your users with august Digital Twins.                                                                   | Probed domains belong to unrelated businesses; no vendor site confirmed.                |
+| BlackTwist       | Manage your Threads and Bluesky accounts with AI.                                                                  | No verifiable vendor site found.                                                        |
+| Bound            | Read Bound API data.                                                                                               | Two unrelated vendors share the name (FX hedging vs. crypto exchange); ambiguous.       |
+| BuyLater         | Save any product and get notified when it is back in stock, on sale, or newly released.                            | buylater.com is an unbuilt scaffold; no vendor site confirmed.                          |
+| Conversion       | Build assets and analyze performance in Conversion.                                                                | Name too generic to pin to a single vendor.                                             |
+| FedMCP           | Canadian federal parliamentary intelligence: bills, MPs' records, voting, and lobbying activity.                   | Vendor's GitHub repository has been deleted or made private; no live canonical page.    |
+| Jobs and Careers | Job search from discovery to application.                                                                          | Name too generic to pin to a single vendor.                                             |
+| KORE             | Extract once, query forever for laboratory science.                                                                | No verifiable vendor site found.                                                        |
+| MCP Memory       | Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT.              | No confirmed vendor site; possibly a rebrand of Mnemoverse Memory (unconfirmed).        |
+| MindMap          | Turn AI insights into interactive mind maps.                                                                       | Several same-named projects; no confident match.                                        |
+| OpenRush         | SEO and competitor analysis with live search data: keyword research, rank tracking, gap analysis, and site audits. | No product site found matching the description.                                         |
+| SoupNet          | Memory system for taste and judgment calls, shareable across AI agents and collaborators.                          | No verifiable vendor site found.                                                        |
+| Subtext          | Session replay built for agents: investigates production sessions via DOM, screenshots, console, and network.      | No verifiable vendor site found.                                                        |
+| Truehome Desk    | Run your estate agency from the AI you already use.                                                                | No live product page found.                                                             |
+| Website Auditor  | AI visibility and site audits: see whether ChatGPT, Perplexity, Claude, and Gemini recommend a website.            | Closest candidate is a docs sub-page of a broader product; not confirmed as the vendor. |
 
 ## Related
 
