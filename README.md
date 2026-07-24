@@ -1025,6 +1025,7 @@ Every link above has been checked against the live page — a URL ships only whe
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Model Context Protocol servers powering many of the connectors above.
 - [awesome-chatgpt-apps](https://github.com/rdmgator12/Chtgpt-Apps-Awesome-List) - Companion list cataloging apps in the ChatGPT directory.
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM-powered applications across providers.
+- [Opus Growth](https://mcp.opus-growth.com) - Hosted MCP connector to manage Google Ads, Microsoft Advertising, TikTok Ads and LinkedIn Ads from Claude, ChatGPT and any MCP client. 233 tools, real writes with dry-run approval gates, agency/MCC-safe, hosted OAuth.
 
 ---
 
